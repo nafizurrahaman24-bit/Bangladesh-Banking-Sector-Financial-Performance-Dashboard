@@ -3,7 +3,10 @@
 ## 📊 Project Overview
 
 The **Bangladesh Banking Sector Financial Performance Dashboard** is an interactive **Power BI financial analytics project** designed to evaluate and compare the financial performance of selected leading commercial banks in Bangladesh.
+
+
 ![Bangladesh Banking Sector Dashboard - Executive Overview]![alt text](<Executive Overview.jpeg>)
+
 
 The dashboard brings together key indicators covering **profitability, asset quality, capital adequacy, liquidity, operational efficiency, earnings, and market performance**. It enables users to compare banks, identify sector-level trends, evaluate relative strengths and weaknesses, and explore individual bank performance.
 
@@ -136,6 +139,8 @@ Based on the project's composite performance assessment, the leading banks are:
 | 🥉 3 | **Prime Bank**        |
 |    4 | **Jamuna Bank**       |
 |    5 | **Mutual Trust Bank** |
+
+
 ![Overall Bank Performance Scorecard]![alt text](<Bank Performance Scorecard.jpeg>)
 
 ### Leading Performers
@@ -159,6 +164,8 @@ The ranking methodology should be considered together with the individual indica
 # 💰 3. Profitability Analysis
 
 Profitability is one of the strongest differentiating factors among the banks analyzed.
+
+
 ![Profitability Analysis]![alt text](Profitability.jpeg)
 
 ### Key Findings
@@ -186,7 +193,10 @@ The analysis suggests that stronger NIM can support profitability, but **profita
 
 
 Asset quality represents one of the most important challenges identified by the analysis.
+
+
 ![Asset Quality and Capital]![alt text](<Asset Quality & Capital.jpeg>)
+
 
 ### Rising NPLs
 
@@ -241,13 +251,15 @@ However, sustained deterioration in asset quality could eventually place pressur
 
 ---
 
-# 💧 6. Liquidity & Operational Efficiency
+# 💵 6. Liquidity & Operational Efficiency
 
 ## Liquidity
 
 The average **LDR of 72.68%** indicates generally comfortable liquidity conditions across the analyzed banks.
 
 ![Liquidity and Efficiency]![alt text](<Liquidity & Efficiency.jpeg>)
+
+
 Most institutions appear to maintain sufficient funding capacity without excessive lending pressure.
 
 However, LDR should not be interpreted in isolation because an extremely high or extremely low ratio is not automatically better. Liquidity should be assessed together with deposit stability, asset quality, funding structure, and regulatory requirements.
@@ -280,7 +292,10 @@ This suggests that **cost control is an important contributor to sustainable ban
 # 📈 7. Market Performance
 
 Market indicators provide another perspective on bank performance beyond traditional accounting ratios.
+
 ![Market Performance]![alt text](<Market Performance Analysis.jpeg>)
+
+
 ### Market Valuation Leaders
 
 **BRAC Bank** records the highest **Price-to-Book (P/B) ratio**, indicating strong market valuation relative to its book value.
