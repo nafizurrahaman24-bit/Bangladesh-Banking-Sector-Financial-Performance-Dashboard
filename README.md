@@ -1,34 +1,48 @@
-# Bangladesh Banking Sector Financial Performance Dashboard
+# Bangladesh Banking Sector Financial Performance: Comparative Analysis of 11 Commercial Banks Consistently Ranked Among the Top 15 (2021–2025)
 
 ## 📊 Project Overview
 
-The **Bangladesh Banking Sector Financial Performance Dashboard** is an interactive **Power BI financial analytics project** designed to evaluate and compare the financial performance of selected leading commercial banks in Bangladesh.
+The Bangladesh Banking Sector Financial Performance Dashboard is an interactive Power BI financial analytics project that evaluates and compares the financial performance of 11 commercial banks in Bangladesh over the 2021–2025 period.
 
 
 ![Bangladesh Banking Sector Dashboard - Executive Overview]![alt text](<Executive Overview.jpeg>)
 
 
-The dashboard brings together key indicators covering **profitability, asset quality, capital adequacy, liquidity, operational efficiency, earnings, and market performance**. It enables users to compare banks, identify sector-level trends, evaluate relative strengths and weaknesses, and explore individual bank performance.
+The selected banks are institutions that were consistently ranked among the top 15 commercial banks during the period covered by the analysis. The sample includes 10 private commercial banks and 1 government-owned commercial bank, providing a comparative perspective across different ownership structures.
 
-The analysis primarily focuses on **average annual reported performance over the examined period**, allowing a consistent comparison of banks across multiple financial dimensions.
+The dashboard brings together key indicators covering:
 
-The project is designed as a data-driven decision-support tool for analysts, researchers, investors, students, and anyone interested in understanding the financial performance of the Bangladesh banking sector.
+Profitability
+Asset quality
+Capital adequacy
+Liquidity
+Operational efficiency
+Earnings
+Market performance
+
+The primary objective is to identify differences in financial performance across the selected banks, highlight leading performers, identify major areas of risk, and provide an interactive framework for comparative banking analysis.
+
+Study Period: 2021–2025
+Banks Analyzed: 11
+Selection Criterion: Banks consistently ranked among the Top 15 commercial banks
+Ownership: 10 Private + 1 Government-owned
 
 ---
 
 ## 🎯 Project Objectives
 
-The main objectives of this project are to:
+The project aims to:
 
-* Compare the financial performance of leading Bangladeshi commercial banks.
-* Evaluate average profitability across the examined period.
-* Assess asset quality and credit-risk exposure.
-* Examine capital adequacy and financial resilience.
-* Analyze liquidity and operational efficiency.
-* Compare market valuation and earnings performance.
-* Identify the strongest and weakest performers across major financial indicators.
-* Develop an overall comparative ranking of banks.
-* Present complex banking-sector information through an interactive Power BI dashboard.
+Compare the financial performance of 11 major Bangladeshi commercial banks over 2021–2025.
+Evaluate average profitability across the examined period.
+Assess asset quality and credit-risk exposure.
+Examine capital adequacy and financial resilience.
+Analyze liquidity and operational efficiency.
+Compare earnings and market valuation.
+Identify leading and weaker performers across major financial indicators.
+Develop a multidimensional overall bank-performance ranking.
+Present financial information through an interactive Power BI dashboard.
+Provide a transparent and visually accessible framework for comparative banking analysis.
 
 ---
 
@@ -60,7 +74,7 @@ The selected sample consists of:
 
 This sample provides a comparative view of financial performance across major private-sector institutions while also including **Sonali Bank** as the government-owned institution in the analysis.
 
-> **Note:** The analysis is based on the selected 11-bank sample and should therefore be interpreted as a comparative assessment of these institutions rather than a comprehensive assessment of the entire Bangladesh banking sector.
+> **Note:** Scope Note: This project does not represent the entire Bangladesh banking sector. The findings are specifically based on the selected 11-bank sample.
 ---
 
 # 📌 Key Financial Indicators
@@ -418,6 +432,25 @@ This distinction is important when interpreting the findings.
 The averages are useful for identifying relatively consistent performers, but they may hide individual-year shocks or periods of rapid deterioration/improvement.
 
 ---
+# Study Period & Average Performance
+
+The analysis covers the period:
+
+2021–2025
+
+A central feature of this project is the use of average annual bank-level performance over the examined period.
+
+For example, a bank's average ROA represents the average of its annual ROA observations during 2021–2025.
+
+Therefore:
+
+The dashboard compares typical financial performance over 2021–2025 rather than ranking banks solely according to their latest-year results.
+
+This approach helps identify relatively consistent performers across the examined period.
+
+However, average values can also hide individual-year shocks or periods of rapid improvement or deterioration. Annual trends are therefore presented alongside average comparisons where appropriate.
+
+---
 
 # 📑 Dashboard Structure
 
@@ -578,15 +611,23 @@ The most important concern identified by the analysis is the **growth in non-per
 
 # 📝 Executive Conclusion
 
-The Bangladesh Banking Sector Financial Performance Dashboard provides a multidimensional assessment of selected commercial banks by combining profitability, asset quality, capital adequacy, liquidity, operational efficiency, earnings, and market-performance indicators.
+This project provides a multidimensional assessment of the financial performance of 11 Bangladeshi commercial banks consistently ranked among the Top 15, covering the period 2021–2025.
 
-The analysis indicates that **BRAC Bank, City Bank, and Prime Bank are among the strongest overall performers**, with BRAC Bank particularly distinguished by its profitability, capital strength, net income, and market valuation.
+The analysis indicates that BRAC Bank, City Bank, and Prime Bank are among the strongest overall performers, with BRAC Bank particularly distinguished by its profitability, capital strength, net income, and market valuation.
 
-At the sector level, the banking industry demonstrates several positive characteristics, including **strong capital adequacy, steady asset growth, improving earnings, and generally comfortable liquidity conditions**.
+The selected banking sample demonstrates several positive characteristics, including:
 
-However, **rising non-performing loans remain the most significant concern**. The increase in NPLs, together with uneven provisioning and operational efficiency across institutions, could create pressure on future profitability and capital if credit quality continues to weaken.
+Strong capital adequacy
+Steady asset growth
+Improving earnings
+Generally comfortable liquidity
+Strong performance from several major private commercial banks
 
-The findings therefore suggest that the long-term sustainability of Bangladesh's banking sector will depend not only on maintaining profitability and capital buffers, but also on:
+However, rising non-performing loans remain the most significant concern.
+
+The increase in NPLs, together with uneven provisioning and operational efficiency across institutions, could create pressure on future profitability and capital if credit quality continues to deteriorate.
+
+The findings therefore suggest that sustainable banking performance will depend not only on maintaining profitability and capital buffers, but also on:
 
 * Strengthening credit-risk management
 * Reducing non-performing loans
@@ -596,8 +637,7 @@ The findings therefore suggest that the long-term sustainability of Bangladesh's
 * Preserving strong capital buffers
 * Maintaining prudent liquidity management
 
-Ultimately, the dashboard demonstrates that **bank performance should be evaluated across multiple dimensions rather than through a single financial ratio**.
-
+Ultimately, the project demonstrates that bank performance should be evaluated across multiple financial dimensions rather than through a single financial ratio.
 ---
 
 # 🚀 Future Improvements
@@ -631,14 +671,14 @@ Bangladesh-Banking-Financial-Performance/
 │   └── Bangladesh_Banking_Performance.pbix
 │
 ├── screenshots/
-│   ├── executive_overview.png
-│   ├── profitability.png
-│   ├── asset_quality.png
-│   ├── liquidity_efficiency.png
-│   ├── market_performance.png
-│   ├── scorecard.png
-│   └── bank_deep_dive.png
-│
+    ├── executive_overview.png
+    ├── profitability.png
+    ├── asset_quality.png
+    ├── liquidity_efficiency.png
+    ├── market_performance.png
+    ├── scorecard.png
+    └── bank_deep_dive.png
+
 
 ```
 
@@ -663,7 +703,7 @@ Average values should also not be interpreted as representing the latest financi
 
 ## ⭐ Project Summary
 
-> **The Bangladesh Banking Sector Financial Performance Dashboard transforms multi-year banking data into an interactive analytical framework for comparing profitability, credit quality, capital strength, liquidity, efficiency, earnings, and market performance across leading Bangladeshi commercial banks.**
+> **The Bangladesh Banking Sector Financial Performance project provides an interactive Power BI-based comparative analysis of 11 commercial banks consistently ranked among the Top 15, covering profitability, credit quality, capital strength, liquidity, operational efficiency, earnings, and market performance from 2021 to 2025.**
 
 The central finding is clear:
 
