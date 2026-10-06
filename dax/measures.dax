@@ -1,0 +1,181 @@
+/*
+Bangladesh Banking Sector Financial Performance Analysis
+Study Period: 2021–2025
+
+/* =========================
+   AVERAGE PERFORMANCE
+   ========================= */
+
+Average ROA =
+AVERAGE(Reported_Ratios_cleaned[ROA])
+
+Average ROE =
+AVERAGE(Reported_Ratios_cleaned[ROE])
+
+Average NPL =
+AVERAGE(Reported_Ratios_cleaned[NPL_Ratio])
+
+Average CAR =
+AVERAGE(Reported_Ratios_cleaned[CAR])
+
+Average CIR =
+AVERAGE(Reported_Ratios_cleaned[CIR])
+
+Average LDR =
+AVERAGE(Reported_Ratios_cleaned[LDR])
+
+Average NIM =
+AVERAGE(Reported_Ratios_cleaned[Net_Interest_Margin])
+
+
+/* =========================
+   SELECTED BANK
+   ========================= */
+
+Selected Bank =
+SELECTEDVALUE(
+    Bank_Master[Bank_Name],
+    "Select a bank"
+)
+
+
+/* =========================
+   INDICATOR RANKS
+   Higher is better:
+     ROA, ROE, CAR
+
+   Lower is better:
+     NPL, CIR
+   ========================= */
+
+ROA Rank =
+RANKX(
+    ALLSELECTED(Bank_Master[Bank_Name]),
+    [Average ROA],
+    ,
+    DESC,
+    DENSE
+)
+
+ROE Rank =
+RANKX(
+    ALLSELECTED(Bank_Master[Bank_Name]),
+    [Average ROE],
+    ,
+    DESC,
+    DENSE
+)
+
+NPL Rank =
+RANKX(
+    ALLSELECTED(Bank_Master[Bank_Name]),
+    [Average NPL],
+    ,
+    ASC,
+    DENSE
+)
+
+CAR Rank =
+RANKX(
+    ALLSELECTED(Bank_Master[Bank_Name]),
+    [Average CAR],
+    ,
+    DESC,
+    DENSE
+)
+
+CIR Rank =
+RANKX(
+    ALLSELECTED(Bank_Master[Bank_Name]),
+    [Average CIR],
+    ,
+    ASC,
+    DENSE
+)
+
+
+/* =========================
+   COMPOSITE RANK
+   Equal-weighted average
+   of five indicator ranks
+   ========================= */
+
+Overall Average Rank =
+AVERAGEX(
+    {
+        [ROA Rank],
+        [ROE Rank],
+        [NPL Rank],
+        [CAR Rank],
+        [CIR Rank]
+    },
+    [Value]
+)
+
+Overall Bank Rank =
+RANKX(
+    ALLSELECTED(Bank_Master[Bank_Name]),
+    [Overall Average Rank],
+    ,
+    ASC,
+    DENSE
+)
+
+
+/* =========================
+   OPTIONAL DISPLAY MEASURES
+   ========================= */
+
+Overall Rank Display =
+VAR CurrentRank = [Overall Bank Rank]
+RETURN
+IF(
+    ISBLANK(CurrentRank),
+    "N/A",
+    FORMAT(CurrentRank, "0")
+)
+
+Overall Average Rank Display =
+VAR CurrentRank = [Overall Average Rank]
+RETURN
+IF(
+    ISBLANK(CurrentRank),
+    "N/A",
+    FORMAT(CurrentRank, "0.00")
+)
+
+
+/* =========================
+   OPTIONAL FINANCIAL MEASURES
+   Verify column names.
+   ========================= */
+
+Average Total Assets =
+AVERAGE(Reported_Ratios_cleaned[Total_Assets])
+
+Average Net Income =
+AVERAGE(Reported_Ratios_cleaned[Net_Income])
+
+Average EPS =
+AVERAGE(Reported_Ratios_cleaned[EPS])
+
+Average P/B =
+AVERAGE(Reported_Ratios_cleaned[PB_Ratio])
+
+
+/*
+METHODOLOGY NOTE
+
+Composite ranking:
+  ROA  -> higher is better
+  ROE  -> higher is better
+  NPL  -> lower is better
+  CAR  -> higher is better
+  CIR  -> lower is better
+
+The five ranks are equally weighted through a simple arithmetic mean.
+Lower Overall Average Rank indicates stronger comparative performance.
+
+LDR is excluded from the composite because there is no universally
+correct higher/lower direction without a justified benchmark.
+*/

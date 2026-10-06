@@ -1,31 +1,58 @@
-# Bangladesh Banking Sector Financial Performance: Comparative Analysis of 11 Commercial Banks Consistently Ranked Among the Top 15 (2021–2025)
+# Bangladesh Banking Sector Financial Performance Analysis (2021–2025)
+
+### Comparative analysis of 11 commercial banks consistently ranked among Bangladesh's Top 15
+
+---
 
 ## 📊 Project Overview
 
-The Bangladesh Banking Sector Financial Performance Dashboard is an interactive Power BI financial analytics project that evaluates and compares the financial performance of 11 commercial banks in Bangladesh over the 2021–2025 period.
+The **Bangladesh Banking Sector Financial Performance Analysis** is an interactive **Power BI financial analytics project** comparing the financial performance of **11 selected commercial banks in Bangladesh** over the **2021–2025** period.
 
+The dashboard evaluates performance across:
 
-![Bangladesh Banking Sector Dashboard - Executive Overview]![alt text](<Executive Overview.jpeg>)
+* Profitability
+* Asset quality and credit risk
+* Capital adequacy
+* Liquidity
+* Operational efficiency
+* Earnings
+* Market performance
 
+The primary objective is to move beyond individual financial ratios and provide a **multidimensional comparison of bank performance**, identifying relative strengths, weaknesses, and major risk areas within the selected sample.
 
-The selected banks are institutions that were consistently ranked among the top 15 commercial banks during the period covered by the analysis. The sample includes 10 private commercial banks and 1 government-owned commercial bank, providing a comparative perspective across different ownership structures.
+> **Scope:** This project analyzes 11 selected commercial banks and should not be interpreted as a comprehensive assessment of the entire Bangladesh banking sector.
 
-The dashboard brings together key indicators covering:
+---
 
-Profitability
-Asset quality
-Capital adequacy
-Liquidity
-Operational efficiency
-Earnings
-Market performance
+## 🖥️ Dashboard Preview
 
-The primary objective is to identify differences in financial performance across the selected banks, highlight leading performers, identify major areas of risk, and provide an interactive framework for comparative banking analysis.
+### Executive Overview
 
-Study Period: 2021–2025
-Banks Analyzed: 11
-Selection Criterion: Banks consistently ranked among the Top 15 commercial banks
-Ownership: 10 Private + 1 Government-owned
+[alt text](<Executive Overview.jpeg>)
+
+### Profitability Analysis
+
+![alt text](Profitability.jpeg)
+
+### Asset Quality & Capital
+
+![alt text](<Asset Quality & Capital.jpeg>)
+
+### Liquidity & Efficiency
+
+![alt text](<Liquidity & Efficiency.jpeg>)
+
+### Market Performance
+
+![alt text](<Market Performance Analysis.jpeg>)
+
+### Bank Performance Scorecard
+
+![alt text](<Bank Performance Scorecard.jpeg>)
+
+### Bank Profile & Financial Deep Dive
+
+![alt text](<Bank Profile & Financial Deep Drive.jpeg>)
 
 ---
 
@@ -33,22 +60,19 @@ Ownership: 10 Private + 1 Government-owned
 
 The project aims to:
 
-Compare the financial performance of 11 major Bangladeshi commercial banks over 2021–2025.
-Evaluate average profitability across the examined period.
-Assess asset quality and credit-risk exposure.
-Examine capital adequacy and financial resilience.
-Analyze liquidity and operational efficiency.
-Compare earnings and market valuation.
-Identify leading and weaker performers across major financial indicators.
-Develop a multidimensional overall bank-performance ranking.
-Present financial information through an interactive Power BI dashboard.
-Provide a transparent and visually accessible framework for comparative banking analysis.
+* Compare the financial performance of 11 selected Bangladeshi commercial banks.
+* Evaluate average annual performance over 2021–2025.
+* Assess profitability and earnings generation.
+* Examine asset quality and credit-risk exposure.
+* Evaluate capital strength and financial resilience.
+* Analyze liquidity and operational efficiency.
+* Compare market valuation and earnings indicators.
+* Develop a transparent comparative bank-performance ranking.
+* Present financial information through an interactive Power BI dashboard.
 
 ---
 
 ## 🏦 Banks Covered
-
-The dashboard analyzes the financial performance of **11 selected commercial banks in Bangladesh**, covering both private-sector and government-owned banking institutions.
 
 | Bank ID | Bank Name                  | Short Name     | Ownership  |
 | ------- | -------------------------- | -------------- | ---------- |
@@ -66,20 +90,32 @@ The dashboard analyzes the financial performance of **11 selected commercial ban
 
 ### Ownership Composition
 
-The selected sample consists of:
-
 * **10 private commercial banks**
 * **1 government-owned commercial bank**
 * **11 banks in total**
 
-This sample provides a comparative view of financial performance across major private-sector institutions while also including **Sonali Bank** as the government-owned institution in the analysis.
+The sample was selected based on the project's criterion of banks being **consistently ranked among Bangladesh's Top 15 commercial banks**.
 
-> **Note:** Scope Note: This project does not represent the entire Bangladesh banking sector. The findings are specifically based on the selected 11-bank sample.
 ---
 
-# 📌 Key Financial Indicators
+## 📌 Key Statistics
 
-The dashboard evaluates banks using a broad set of financial indicators.
+| Indicator            | Average / Observation |
+| -------------------- | --------------------: |
+| Average Total Assets |    BDT 509.07 billion |
+| Average Net Income   |      BDT 3.50 billion |
+| Average ROA          |                 0.88% |
+| Average ROE          |                11.45% |
+| Average NIM          |                 3.18% |
+| Average NPL Ratio    |                 6.45% |
+| Average CAR          |                13.79% |
+| Average LDR          |                72.68% |
+
+These figures represent **average annual reported bank-level performance over the examined period**, rather than latest-year performance alone.
+
+---
+
+## 📊 Indicators Analyzed
 
 ### Profitability
 
@@ -123,421 +159,267 @@ The dashboard evaluates banks using a broad set of financial indicators.
 
 ---
 
-# 🔎 Combined Key Findings
+# 🔬 Methodology
 
-## 1. Overall Sector Performance
+## Observation Unit
 
-The analysis indicates that the Bangladesh banking sector has experienced **overall growth in assets, deposits, and earnings**, although performance remains uneven across individual institutions.
+The analysis is structured at the **bank-year level**.
 
-Key sector-level observations include:
+With 11 banks observed annually from 2021 through 2025, a complete dataset contains:
 
-* Average total assets reached approximately **BDT 509.07 billion**.
-* Average net income was approximately **BDT 3.50 billion**.
-* Average **ROA was 0.88%**.
-* Average **ROE was 11.45%**.
-* Average **NIM was approximately 3.18%**.
-* Average **LDR was 72.68%**, indicating generally comfortable liquidity conditions.
+**11 banks × 5 years = 55 bank-year observations**
 
-Overall, the sector demonstrates a combination of **moderate profitability, adequate liquidity, and relatively strong capital positions**, but significant differences exist between individual banks.
+The dashboard calculates average performance across these annual observations to support cross-bank comparison.
 
----
+## Average Performance
 
-# 🏆 2. Overall Bank Performance
-
-Based on the project's composite performance assessment, the leading banks are:
-
-| Rank | Bank                  |
-| ---: | --------------------- |
-| 🥇 1 | **BRAC Bank**         |
-| 🥈 2 | **City Bank**         |
-| 🥉 3 | **Prime Bank**        |
-|    4 | **Jamuna Bank**       |
-|    5 | **Mutual Trust Bank** |
-
-
-![Overall Bank Performance Scorecard]![alt text](<Bank Performance Scorecard.jpeg>)
-
-### Leading Performers
-
-**BRAC Bank** emerges as the strongest overall performer, supported by strong profitability, capital strength, market valuation, and high net income.
-
-**City Bank** demonstrates particularly strong shareholder profitability and records the **highest ROE** among the analyzed banks.
-
-**Prime Bank** maintains balanced performance across profitability, capital adequacy, and other financial indicators.
-
-**EBL** also demonstrates strong and balanced performance, particularly in profitability, capital adequacy, and market-related indicators.
-
-### Important Interpretation
-
-The overall ranking is intended to provide a **relative comparison across multiple financial dimensions**. It should not be interpreted as a definitive measure of the intrinsic quality or future performance of a bank.
-
-The ranking methodology should be considered together with the individual indicator results and the period covered by the analysis.
-
----
-
-# 💰 3. Profitability Analysis
-
-Profitability is one of the strongest differentiating factors among the banks analyzed.
-
-
-![Profitability Analysis]![alt text](Profitability.jpeg)
-
-### Key Findings
-
-* **BRAC Bank records the highest average net income** among the analyzed banks.
-* **City Bank records the highest ROE**, indicating strong returns generated for shareholders.
-* **BRAC Bank leads in ROA**, suggesting stronger asset utilization and profitability relative to its asset base.
-* Average sector **ROA stands at approximately 0.88%**.
-* Average sector **ROE stands at approximately 11.45%**.
-* Average **NIM is approximately 3.18%**.
-
-### Earnings Trend
-
-EPS increased substantially over the examined period, rising from approximately **2.77 to 6.77**.
-
-This suggests an overall improvement in earnings generation, although the improvement is not uniform across all institutions.
-
-### Key Insight
-
-The analysis suggests that stronger NIM can support profitability, but **profitability depends on multiple factors**, including operating efficiency, credit quality, capital structure, and the bank's ability to control costs and losses.
-
----
-
-# ⚠️ 4. Asset Quality & Credit Risk
-
-
-Asset quality represents one of the most important challenges identified by the analysis.
-
-
-![Asset Quality and Capital]![alt text](<Asset Quality & Capital.jpeg>)
-
-
-### Rising NPLs
-
-* Average NPL ratio is approximately **6.45%**.
-* Total NPL volume increased substantially between **2021 and 2024**.
-* NPLs reached approximately **BDT 42.18 billion in 2024** before showing a moderate decline in 2025.
-
-The increase in non-performing loans indicates growing pressure on credit quality despite improvements in several profitability indicators.
-
-### Bank-Level Risk
-
-**Sonali Bank** consistently records the highest NPL exposure among the analyzed institutions.
-
-This highlights an important distinction in the analysis: a bank may demonstrate strong earnings or EPS while simultaneously facing significant asset-quality challenges.
-
-### Provisioning Concern
-
-The analysis indicates that growth in loan-loss provisions has not fully matched NPL growth for some institutions.
-
-If credit quality continues to deteriorate, insufficient provisioning could place additional pressure on:
-
-* Future profitability
-* Capital adequacy
-* Loan-loss absorption capacity
-* Financial stability
-
-### Key Insight
-
-> **Asset quality remains the most significant risk area identified by the dashboard.**
-
----
-
-# 🛡️ 5. Capital Strength
-
-The banking sector demonstrates generally strong capital adequacy.
-
-
-### Key Findings
-
-* Average **CAR is approximately 13.79%**.
-* Most banks maintain Tier-1 capital ratios above applicable regulatory benchmarks.
-* **BRAC Bank** demonstrates one of the strongest capital positions.
-* **Prime Bank** and **EBL** also maintain strong capital adequacy.
-
-Strong capital buffers provide banks with greater capacity to absorb unexpected losses.
-
-However, sustained deterioration in asset quality could eventually place pressure on capital ratios, particularly for banks experiencing significant NPL growth.
-
-### Key Insight
-
-> Strong capital adequacy is one of the major strengths of the banking sector, but maintaining these buffers will depend partly on successful credit-risk management.
-
----
-
-# 💵 6. Liquidity & Operational Efficiency
-
-## Liquidity
-
-The average **LDR of 72.68%** indicates generally comfortable liquidity conditions across the analyzed banks.
-
-![Liquidity and Efficiency]![alt text](<Liquidity & Efficiency.jpeg>)
-
-
-Most institutions appear to maintain sufficient funding capacity without excessive lending pressure.
-
-However, LDR should not be interpreted in isolation because an extremely high or extremely low ratio is not automatically better. Liquidity should be assessed together with deposit stability, asset quality, funding structure, and regulatory requirements.
-
----
-
-## Operational Efficiency
-
-The **Cost-to-Income Ratio (CIR)** reveals substantial differences in operational efficiency.
-
-### Efficiency Leaders
-
-* **Bank Asia** records the lowest CIR and therefore demonstrates the strongest cost efficiency among the analyzed banks.
-* **EBL** and **Dhaka Bank** also demonstrate relatively strong cost management.
-
-### Efficiency Challenge
-
-**Sonali Bank** records the highest CIR, indicating comparatively weaker operational efficiency.
-
-Higher operating costs can reduce the amount of revenue that ultimately translates into profitability.
-
-### Profitability-Efficiency Relationship
-
-The analysis indicates that banks with lower CIR generally tend to demonstrate stronger ROA and profitability.
-
-This suggests that **cost control is an important contributor to sustainable bank profitability**.
-
----
-
-# 📈 7. Market Performance
-
-Market indicators provide another perspective on bank performance beyond traditional accounting ratios.
-
-![Market Performance]![alt text](<Market Performance Analysis.jpeg>)
-
-
-### Market Valuation Leaders
-
-**BRAC Bank** records the highest **Price-to-Book (P/B) ratio**, indicating strong market valuation relative to its book value.
-
-**EBL** and **City Bank** also demonstrate favorable market valuations.
-
-### Market Value & Book Value
-
-The analysis indicates a positive relationship between market value and book value across the analyzed banks.
-
-BRAC Bank stands out as the strongest market performer among the peer group.
-
-### EPS Performance
-
-**Sonali Bank records the highest EPS** among the analyzed banks.
-
-However, this result also demonstrates why individual indicators should not be interpreted in isolation: strong EPS does not necessarily imply strong overall financial health when asset quality and operational efficiency are considered.
-
----
-
-# 📊 8. Overall Strategic Insights
-
-
-## Strengths of the Banking Sector
-
-The analysis identifies several positive characteristics:
-
-* ✅ Strong overall capital adequacy
-* ✅ Average CAR of approximately **13.79%**
-* ✅ Steady growth in assets and deposits
-* ✅ Improving earnings performance
-* ✅ Average LDR of approximately **72.68%**
-* ✅ Improving profitability indicators
-* ✅ Strong market valuation among leading banks
-* ✅ Strong performance from several major private commercial banks
-
----
-
-## Key Challenges
-
-At the same time, several risks require continued attention:
-
-* ⚠️ Rising non-performing loans
-* ⚠️ Increasing credit-risk concentration in some institutions
-* ⚠️ Significant variation in operational efficiency
-* ⚠️ Provision growth not fully matching NPL growth in some cases
-* ⚠️ Large performance differences between leading and weaker banks
-* ⚠️ Potential future pressure on profitability and capital if asset quality deteriorates
-
----
-
-# 🏅 Overall Performance Perspective
-
-One of the major conclusions from the dashboard is that **no single financial indicator provides a complete picture of bank performance**.
+The project focuses on **average annual reported bank-level performance** over the study period.
 
 For example:
 
-* A bank may have high EPS but also high NPL exposure.
-* A bank may have strong profitability but weaker cost efficiency.
-* A bank may have strong capital adequacy but lower market valuation.
-* A bank may have strong market valuation because of investor confidence while still facing asset-quality challenges.
+> Average ROA represents the average of a bank's annual ROA observations across the 2021–2025 period.
 
-Therefore, the dashboard evaluates banks across multiple dimensions rather than relying on a single metric.
+Therefore, the dashboard is intended to identify **typical performance over the examined period**, rather than ranking banks solely according to their latest-year results.
 
-The overall performance assessment places particular emphasis on:
+Power BI's standard **Average** aggregation is used where appropriate. Additional DAX measures are used only where required for ranking, dynamic selection, or other analytical logic.
 
-1. Profitability
-2. Asset quality
-3. Capital strength
-4. Operational efficiency
-5. Liquidity
-6. Market performance
+## Ranking Methodology
 
-This multidimensional approach provides a more balanced comparison of the selected banks.
+The overall ranking uses an **equal-weighted average-rank approach** across five core indicators:
 
----
+1. ROA
+2. ROE
+3. NPL Ratio
+4. CAR
+5. CIR
 
-# 🧮 Overall Ranking Methodology
+Each bank receives an indicator-level rank based on the direction of desirable performance.
 
-The dashboard's overall ranking is designed to compare banks across multiple financial indicators.
-
-For indicators where **higher values represent stronger performance**, such as:
+### Higher is Better
 
 * ROA
 * ROE
-* NIM
 * CAR
 
-higher performance receives a stronger ranking.
-
-For indicators where **lower values represent stronger performance**, such as:
+### Lower is Better
 
 * NPL Ratio
 * CIR
 
-lower values receive a stronger ranking.
+The indicator-level ranks are then averaged to produce an **Overall Average Rank**.
 
-The resulting indicator-level rankings can then be combined to produce an overall comparative ranking.
+The final **Overall Bank Rank** is assigned by ranking the Overall Average Rank in ascending order:
 
-### Important Note on LDR
+> **Lower average rank = stronger overall comparative performance.**
 
-LDR is treated primarily as a **liquidity indicator** rather than automatically assuming that a higher or lower value is better. An optimal LDR depends on the bank's funding structure, lending strategy, liquidity position, and regulatory environment.
+This approach gives each selected indicator equal importance and prevents a single financial metric from determining the overall ranking.
 
-Therefore, LDR should be interpreted separately unless a clearly justified benchmark or target range is introduced.
+### LDR Treatment
 
----
+LDR is **not directly included in the composite ranking** because a higher or lower LDR is not inherently better without a clearly defined benchmark or optimal range.
 
-# 📅 Interpretation of Average Performance
+It is therefore interpreted separately as a liquidity indicator.
 
-A central feature of this project is the use of **average annual bank-level performance over the examined period**.
-
-For example, the reported average ROA represents the average of the bank's annual ROA observations across the period covered by the dataset.
-
-Therefore:
-
-> **The dashboard compares typical performance over the examined period rather than ranking banks solely according to their latest-year results.**
-
-This distinction is important when interpreting the findings.
-
-The averages are useful for identifying relatively consistent performers, but they may hide individual-year shocks or periods of rapid deterioration/improvement.
-
----
-# Study Period & Average Performance
-
-The analysis covers the period:
-
-2021–2025
-
-A central feature of this project is the use of average annual bank-level performance over the examined period.
-
-For example, a bank's average ROA represents the average of its annual ROA observations during 2021–2025.
-
-Therefore:
-
-The dashboard compares typical financial performance over 2021–2025 rather than ranking banks solely according to their latest-year results.
-
-This approach helps identify relatively consistent performers across the examined period.
-
-However, average values can also hide individual-year shocks or periods of rapid improvement or deterioration. Annual trends are therefore presented alongside average comparisons where appropriate.
+> **Important:** The composite ranking is a comparative analytical measure and should not be interpreted as an official measure of bank soundness, creditworthiness, or investment attractiveness.
 
 ---
 
-# 📑 Dashboard Structure
+## Missing Values & Data Treatment
 
-The Power BI report is organized into several analytical sections.
+The analysis is based on reported financial information available for the selected banks and study period.
+
+Where data are unavailable, the dashboard does not treat missing observations as zero. Averages are calculated using the available reported observations within the relevant filter context.
+
+Differences in reporting practices, financial statement presentation, and data availability may affect comparisons between institutions.
+
+---
+
+# 🔎 Key Findings
+
+## 1. Overall Performance
+
+The composite assessment identifies the following five leading performers:
+
+| Rank | Bank                    |
+| ---: | ----------------------- |
+| 🥇 1 | BRAC Bank               |
+| 🥈 2 | City Bank               |
+| 🥉 3 | Prime Bank              |
+|    4 | Jamuna Bank             |
+|    5 | Mutual Trust Bank (MTB) |
+
+**BRAC Bank** emerges as the strongest overall performer in the comparative assessment, supported by strong profitability, capital strength, net income, and market valuation.
+
+**City Bank** records the highest average ROE, while **BRAC Bank** leads in average ROA.
+
+---
+
+## 2. Profitability
+
+Key observations include:
+
+* **BRAC Bank** records the highest average net income.
+* **City Bank** records the highest average ROE.
+* **BRAC Bank** leads in average ROA.
+* Average ROA across the selected sample is approximately **0.88%**.
+* Average ROE is approximately **11.45%**.
+* Average NIM is approximately **3.18%**.
+* EPS increased from approximately **2.77 to 6.77** over the examined period.
+
+The analysis suggests that NIM can contribute to stronger earnings generation, but profitability is influenced by multiple factors, including operating efficiency, credit quality, capital structure, and cost management.
+
+---
+
+## 3. Asset Quality & Credit Risk
+
+Asset quality represents the most significant risk area identified by the analysis.
+
+Key observations:
+
+* Average NPL ratio is approximately **6.45%**.
+* Total NPL increased substantially between **2021 and 2024**.
+* NPL reached approximately **BDT 42.18 billion in 2024** before moderately declining in 2025.
+* **Sonali Bank** consistently records the highest NPL exposure among the analyzed banks.
+
+The analysis also indicates that loan-loss provision growth did not fully match NPL growth for some institutions.
+
+Continued deterioration in credit quality could place pressure on:
+
+* Profitability
+* Provisioning requirements
+* Capital adequacy
+* Loss-absorption capacity
+
+> **Asset quality is the most significant credit-risk concern identified within the selected 11-bank sample.**
+
+---
+
+## 4. Capital Strength
+
+The selected banks generally demonstrate strong capital positions.
+
+Key observations:
+
+* Average CAR is approximately **13.79%**.
+* Most banks maintain Tier-1 capital ratios above applicable regulatory benchmarks.
+* **BRAC Bank** demonstrates one of the strongest capital positions.
+* **Prime Bank** and **EBL** also demonstrate strong capital adequacy.
+
+Strong capital buffers provide greater capacity to absorb unexpected losses. However, continued deterioration in asset quality could place pressure on capital ratios.
+
+---
+
+## 5. Liquidity & Operational Efficiency
+
+### Liquidity
+
+Average LDR is approximately **72.68%**, suggesting generally comfortable liquidity conditions across the selected sample.
+
+However, LDR should not be interpreted as inherently better when higher or lower. Its interpretation depends on funding structure, lending strategy, deposit stability, liquidity management, and applicable regulatory requirements.
+
+### Operational Efficiency
+
+There are substantial differences in cost efficiency among the banks.
+
+* **Bank Asia** records the lowest CIR and demonstrates the strongest cost efficiency.
+* **EBL** and **Dhaka Bank** also demonstrate relatively strong cost management.
+* **Sonali Bank** records the highest CIR, indicating comparatively weaker operational efficiency.
+
+The comparative analysis indicates that banks with lower CIR generally tend to exhibit stronger ROA and profitability. This is an observed relationship in the dataset, **not evidence that lower CIR directly causes higher profitability**.
+
+---
+
+## 6. Market Performance
+
+Market indicators provide an additional perspective beyond accounting-based financial ratios.
+
+Key observations:
+
+* **BRAC Bank** records the highest P/B ratio among the analyzed banks.
+* **EBL** and **City Bank** also demonstrate favorable market valuations.
+* **Sonali Bank** records the highest EPS among the analyzed banks.
+
+The results illustrate why individual indicators should not be interpreted in isolation. A bank can perform strongly on one market or earnings metric while facing challenges in areas such as asset quality or operational efficiency.
+
+---
+
+# 🧭 Dashboard Structure
+
+The Power BI report is organized into seven analytical pages:
 
 ### 1. Executive Overview
 
-Provides a high-level view of:
+Provides a high-level view of key financial indicators, assets, income, profitability, liquidity, and overall performance.
 
-* Sector assets
-* Net income
-* Profitability
-* Liquidity
-* Major performance indicators
-* Overall sector trends
+### 2. Profitability
 
-### 2. Profitability Analysis
-
-Focuses on:
-
-* ROA
-* ROE
-* NIM
-* Net income
-* EPS
-* Profitability comparisons
+Focuses on ROA, ROE, NIM, net income, EPS, and profitability comparisons.
 
 ### 3. Asset Quality & Capital
 
-Examines:
-
-* NPL ratio
-* Total NPL
-* CAR
-* Tier-1 capital
-* Credit-risk trends
+Examines NPLs, NPL ratios, CAR, Tier-1 capital, and credit-risk trends.
 
 ### 4. Liquidity & Efficiency
 
-Analyzes:
-
-* LDR
-* CIR
-* Cost efficiency
-* Liquidity conditions
-* Profitability-efficiency relationships
+Analyzes LDR, CIR, liquidity conditions, and operational efficiency.
 
 ### 5. Market Performance
 
-Evaluates:
-
-* P/B ratio
-* EPS
-* Market value
-* Book value
-* Market-performance relationships
+Evaluates P/B ratio, EPS, market value, book value, and market-performance relationships.
 
 ### 6. Bank Performance Scorecard
 
-Provides:
-
-* Overall bank ranking
-* Cross-bank comparison
-* Major financial indicators
-* Relative performance assessment
+Provides the composite ranking and cross-bank comparison across major indicators.
 
 ### 7. Bank Profile & Financial Deep Dive
 
-Allows users to investigate the financial characteristics and performance of an individual bank in greater detail.
-![Bank Profile and Financial Deep Dive]![alt text](<Bank Profile & Financial Deep Drive.jpeg>)
+Provides a more detailed view of an individual bank's financial characteristics and performance.
+
 ---
 
-# 📊 Visualization Approach
+# 📈 Visualization Approach
 
-The dashboard uses different visual types according to the analytical purpose.
+Visuals are selected according to the analytical question rather than simply for variety.
 
-| Analytical Purpose              | Recommended Visual       |
+| Analytical Purpose              | Visual                   |
 | ------------------------------- | ------------------------ |
 | KPI / headline metric           | Card                     |
 | Bank comparison                 | Bar / Column Chart       |
 | Annual trend                    | Line Chart               |
 | Relationship between indicators | Scatter Plot             |
 | Overall ranking                 | Ranked Bar Chart / Table |
-| Detailed bank comparison        | Matrix / Table           |
-| Target or benchmark comparison  | Bullet / Gauge           |
+| Detailed comparison             | Matrix / Table           |
+| Benchmark comparison            | Bullet / Gauge           |
 
-The design follows the principle of selecting visuals according to the analytical question rather than using different chart types merely for visual variety. Microsoft similarly recommends choosing visuals that make comparisons easy to interpret and avoiding unnecessary complexity.
+For example:
+
+* **Bar charts** are used for cross-bank comparisons.
+* **Line charts** show annual trends.
+* **Scatter plots** examine relationships between numerical indicators.
+* **Ranked charts and tables** communicate overall performance.
+* **Bullet/gauge visuals** are appropriate where meaningful benchmarks are available.
+
+---
+
+# 🗂️ Data Sources
+
+The analysis is based on publicly reported financial information for the selected banks.
+
+Primary source categories include:
+
+* Annual reports of the selected banks
+* Published financial statements
+* Bank financial disclosures
+* Relevant Bangladesh banking and financial-market disclosures
+* Market data used for P/B, market value, and related indicators
+
+### Source Documentation
+
+Exact source links and source-level references should be maintained in the repository alongside the cleaned dataset where possible.
+
+> **Recommended repository practice:** Maintain a `data_sources.md` or `documentation/data_sources.md` file listing the bank, reporting year, source document, URL, and indicators extracted from each source.
+
+This improves reproducibility and allows readers to trace the underlying financial figures.
 
 ---
 
@@ -549,115 +431,61 @@ Used for:
 
 * Data modeling
 * Data transformation
-* DAX calculations
-* Interactive visualizations
-* Financial analysis
+* Interactive visualization
 * Cross-filtering
 * Drill-through analysis
 * Dashboard development
-
-### Data Analysis
-
-The project uses financial indicators and annual observations to compare the performance of selected Bangladeshi commercial banks.
+* Financial performance analysis
 
 ### DAX
 
-DAX is used where required for:
+Used where required for:
 
-* Performance calculations
-* Ranking
+* Ranking calculations
 * Dynamic bank selection
 * Comparative analysis
-* Aggregation
 * Interactive dashboard logic
+* Custom analytical calculations
+
+### Data Analysis
+
+The project applies financial ratio analysis, comparative benchmarking, multi-year aggregation, and multidimensional bank-performance assessment.
 
 ---
 
-# 🧠 Key Takeaways
+# ⚠️ Limitations
 
-### 🥇 Strongest Overall Performer
+Several limitations should be considered when interpreting the results:
 
-**BRAC Bank** emerges as the leading overall performer, supported by strong profitability, capital strength, net income, and market valuation.
+1. The analysis covers **11 selected banks**, not the entire Bangladesh banking sector.
+2. The study period is limited to **2021–2025**.
+3. Average performance can conceal individual-year shocks and periods of rapid improvement or deterioration.
+4. Differences in reporting practices and data availability may affect comparability.
+5. The composite ranking uses an **equal-weighted ranking methodology** and therefore reflects the selected indicators and methodology rather than an objective measure of overall bank quality.
+6. LDR is interpreted separately because an optimal level depends on the bank's funding and liquidity context.
+7. The analysis is descriptive and comparative; observed relationships should not be interpreted as causal relationships without additional statistical testing.
+8. The ranking is not an investment recommendation or official assessment of bank soundness.
 
-### 💰 Strongest Shareholder Profitability
-
-**City Bank** records the highest ROE, highlighting strong shareholder return generation.
-
-### 📈 Strongest Asset Utilization
-
-**BRAC Bank** leads ROA, indicating strong profitability relative to its asset base.
-
-### 🏦 Strong Capital Position
-
-**BRAC Bank, Prime Bank, and EBL** demonstrate particularly strong capital positions.
-
-### ⚙️ Strongest Operational Efficiency
-
-**Bank Asia** records the lowest CIR, indicating strong cost efficiency.
-
-### ⚠️ Largest Credit-Risk Concern
-
-**Sonali Bank** records the highest NPL exposure among the analyzed banks.
-
-### 📊 Strongest Market Valuation
-
-**BRAC Bank** records the highest P/B ratio, reflecting strong market valuation relative to book value.
-
-### 🚨 Main Sector Risk
-
-The most important concern identified by the analysis is the **growth in non-performing loans** and the potential consequences for profitability, provisioning, and capital strength.
-
----
-
-# 📝 Executive Conclusion
-
-This project provides a multidimensional assessment of the financial performance of 11 Bangladeshi commercial banks consistently ranked among the Top 15, covering the period 2021–2025.
-
-The analysis indicates that BRAC Bank, City Bank, and Prime Bank are among the strongest overall performers, with BRAC Bank particularly distinguished by its profitability, capital strength, net income, and market valuation.
-
-The selected banking sample demonstrates several positive characteristics, including:
-
-Strong capital adequacy
-Steady asset growth
-Improving earnings
-Generally comfortable liquidity
-Strong performance from several major private commercial banks
-
-However, rising non-performing loans remain the most significant concern.
-
-The increase in NPLs, together with uneven provisioning and operational efficiency across institutions, could create pressure on future profitability and capital if credit quality continues to deteriorate.
-
-The findings therefore suggest that sustainable banking performance will depend not only on maintaining profitability and capital buffers, but also on:
-
-* Strengthening credit-risk management
-* Reducing non-performing loans
-* Improving loan recovery
-* Maintaining adequate provisioning
-* Controlling operating costs
-* Preserving strong capital buffers
-* Maintaining prudent liquidity management
-
-Ultimately, the project demonstrates that bank performance should be evaluated across multiple financial dimensions rather than through a single financial ratio.
 ---
 
 # 🚀 Future Improvements
 
-Potential future enhancements include:
+Potential enhancements include:
 
-* Adding additional years as data becomes available.
+* Adding additional years as new data become available.
+* Enhancing the existing composite performance score with **formally documented weights and sensitivity analysis**.
 * Introducing peer-group benchmarking.
 * Adding regulatory benchmark indicators.
-* Developing a weighted composite performance score.
 * Adding year-over-year performance analysis.
 * Incorporating macroeconomic indicators such as GDP growth and inflation.
 * Adding dividend and shareholder-return analysis.
 * Developing automated data-refresh functionality.
-* Adding more detailed bank-level drill-through analysis.
-* Incorporating statistical analysis of relationships between financial indicators.
+* Expanding bank-level drill-through analysis.
+* Conducting statistical analysis of relationships between financial indicators.
 
 ---
 
-# 📂 Suggested Project Structure
+# 📂 Repository Structure
 
 ```text
 Bangladesh-Banking-Financial-Performance/
@@ -671,40 +499,52 @@ Bangladesh-Banking-Financial-Performance/
 │   └── Bangladesh_Banking_Performance.pbix
 │
 ├── screenshots/
-    ├── executive_overview.png
-    ├── profitability.png
-    ├── asset_quality.png
-    ├── liquidity_efficiency.png
-    ├── market_performance.png
-    ├── scorecard.png
-    └── bank_deep_dive.png
-
-
+│   ├── executive_overview.jpeg
+│   ├── profitability.jpeg
+│   ├── asset_quality_capital.jpeg
+│   ├── liquidity_efficiency.jpeg
+│   ├── market_performance.jpeg
+│   ├── bank_performance_scorecard.jpeg
+│   └── bank_deep_dive.jpeg
+│
+├── documentation/
+│   ├── data_sources.md
+│   ├── methodology.md
+│   └── data_dictionary.md
+│
+└── dax/
+    └── measures.dax
 ```
 
-# ⚠️ Methodological Disclaimer
+---
 
-This dashboard is intended for **analytical and educational purposes**.
+# 📝 Methodological Disclaimer
 
-The results are based on the financial data and reporting period included in the underlying dataset. Differences in accounting practices, reporting periods, data availability, and bank-specific characteristics may affect comparisons.
+This project is intended for **analytical, educational, and portfolio purposes**.
 
-The overall ranking is a **comparative analytical measure**, not an investment recommendation or an official assessment of bank soundness.
+The results are based on the financial data available for the selected banks and the 2021–2025 study period. Differences in accounting practices, reporting periods, data availability, and bank-specific characteristics may affect comparisons.
 
-Average values should also not be interpreted as representing the latest financial year or as a weighted sector-wide ratio unless explicitly stated.
+The overall ranking is a **comparative analytical measure**, not an investment recommendation, credit rating, or official assessment of bank soundness.
+
+Average values represent reported annual bank-level observations over the examined period and should not be interpreted as latest-year values or weighted sector-wide ratios unless explicitly stated.
+
+---
 
 # 👤 Author
 
-** Nafizur Rahaman**
+**Nafizur Rahaman**
 
-**Project:** Bangladesh Banking Sector Financial Performance Dashboard
+**Project:** Bangladesh Banking Sector Financial Performance Analysis
 **Platform:** Microsoft Power BI
-**Focus:** Banking Sector Financial Performance Analysis
+**Study Period:** 2021–2025
+**Focus:** Banking Financial Performance & Comparative Analytics
 
+---
 
 ## ⭐ Project Summary
 
-> **The Bangladesh Banking Sector Financial Performance project provides an interactive Power BI-based comparative analysis of 11 commercial banks consistently ranked among the Top 15, covering profitability, credit quality, capital strength, liquidity, operational efficiency, earnings, and market performance from 2021 to 2025.**
+The **Bangladesh Banking Sector Financial Performance Analysis** transforms multi-year financial data into an interactive framework for comparing profitability, asset quality, capital strength, liquidity, efficiency, earnings, and market performance across 11 selected commercial banks.
 
-The central finding is clear:
+The analysis identifies **BRAC Bank, City Bank, and Prime Bank** among the strongest overall performers, while highlighting **rising non-performing loans as the most significant credit-risk concern** within the selected sample.
 
-**Bangladesh's banking sector demonstrates strong capital and liquidity foundations and improving profitability, but rising non-performing loans remain the critical challenge to long-term financial stability.**
+> **The selected 11-bank sample demonstrates relatively strong capital and liquidity positions and improving profitability, while rising non-performing loans remain the most significant credit-risk concern identified by the analysis.**
