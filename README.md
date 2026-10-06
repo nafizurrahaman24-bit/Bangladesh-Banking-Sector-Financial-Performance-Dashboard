@@ -28,7 +28,7 @@ The primary objective is to move beyond individual financial ratios and provide 
 
 ### Executive Overview
 
-[alt text](<Executive Overview.jpeg>)
+![alt text](<Executive Overview.jpeg>)
 
 ### Profitability Analysis
 
